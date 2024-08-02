@@ -1,0 +1,79 @@
+/* Body stil ayarları */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Üst header stil ayarları */
+.upperHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    /* Mevcut renk */
+    padding: 10px;
+}
+
+/* Sosyal medya simgeleri stili */
+.social-media-icons a {
+    color: white;
+}
+
+/* Dil değiştirme seçici stili */
+.language-switcher {
+    display: flex;
+    text-align: right;
+}
+
+/* Ant Design seçici stil ayarları */
+.ant-select-selection-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Header stil ayarları */
+.header {
+    background-color: #ffffff;
+    /* Başlık arka plan rengi */
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.company-name {
+    font-size: 24px;
+    color: black;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    /* Butonlar arasındaki boşluk */
+}
+
+.login,
+.trial {
+    background-color: #007bff;
+    /* Buton arka plan rengi */
+    color: #ffffff;
+    /* Buton üzerindeki yazının rengi */
+
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login:hover,
+.trial:hover {
+    background-color: #0056b3;
+    /* Butona tıklanırken değişen arka plan rengi */
+}
